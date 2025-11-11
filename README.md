@@ -1,6 +1,6 @@
-Hi, My name is Atanu Karmakar, Here you will able to see the deatails about me.
+Hi, My name is Dharani, Here you will able to see the deatails about me.
 
-## Atanu Karmakar
+## Dharani
 
 ---
 ### Techstacks ✨
@@ -11,7 +11,7 @@ Hi, My name is Atanu Karmakar, Here you will able to see the deatails about me.
 
 ***
 ### 🔹Web Page view
-<img src="https://github.com/user-attachments/assets/5ac6f685-8678-49b3-82bb-8aea08131c1d" alt="Atanu Karmakar Portfolio Web page view" />
+<img src="https://github.com/user-attachments/assets/5ac6f685-8678-49b3-82bb-8aea08131c1d" alt="Dharani Portfolio Web page view" />
 
 
 ## :large_blue_diamond: Mobile view
