@@ -1,0 +1,88 @@
+/* Theme Toggle Switch - iPhone style */
+
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.theme-toggle {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle.dark {
+    background-color: #4CAF50;
+}
+
+.theme-toggle.light {
+    background-color: #ffb300;
+}
+
+.toggle-circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: left 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 2px;
+}
+
+.theme-toggle.light .toggle-circle {
+    left: 28px;
+}
+
+.toggle-icon {
+    position: absolute;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.theme-toggle.dark .toggle-icon {
+    opacity: 1;
+    left: 8px;
+}
+
+.theme-toggle.light .toggle-icon {
+    opacity: 1;
+    right: 8px;
+}
+
+/* Responsive: hide on very small screens if needed */
+@media (max-width: 480px) {
+    .theme-toggle {
+        width: 50px;
+        height: 28px;
+        border-radius: 14px;
+    }
+
+    .toggle-circle {
+        width: 24px;
+        height: 24px;
+    }
+
+    .theme-toggle.light .toggle-circle {
+        left: 24px;
+    }
+
+    .toggle-icon {
+        font-size: 12px;
+    }
+
+    .theme-toggle-container {
+        margin: 0 10px;
+    }
+}
